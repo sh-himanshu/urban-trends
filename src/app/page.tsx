@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button';
+import { ModeToggle } from '@/components/mode-toggle';
 
 const Home = () => {
   return (
     <div>
-      <Button>Click me !</Button>
+      <ModeToggle />
     </div>
   );
 };
